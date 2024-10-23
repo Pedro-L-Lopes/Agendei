@@ -1,7 +1,7 @@
 import { Image, Text, TextInput, TouchableOpacity, View } from "react-native";
 import icon from "../../constants/icon.js";
 import { styles } from "./login.style.js";
-import Button from "../../components/button/button.jsx";
+import Btn from "../../components/btn/Btn.jsx";
 
 function Login() {
   return (
@@ -21,7 +21,7 @@ function Login() {
             secureTextEntry={true}
           />
         </View>
-        <Button text="Acessar" />
+        <Btn text="Acessar" />
       </View>
 
       <View style={styles.footer}>

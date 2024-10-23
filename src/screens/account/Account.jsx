@@ -1,7 +1,7 @@
 import { Image, Text, TextInput, TouchableOpacity, View } from "react-native";
 import icon from "../../constants/icon.js";
 import { styles } from "./account.style.js";
-import Button from "../../components/button/button.jsx";
+import Btn from "../../components/btn/Btn.jsx";
 
 function Account() {
   return (
@@ -24,7 +24,7 @@ function Account() {
             secureTextEntry={true}
           />
         </View>
-        <Button text="Criar Conta" />
+        <Btn text="Criar Conta" />
       </View>
 
       <View style={styles.footer}>

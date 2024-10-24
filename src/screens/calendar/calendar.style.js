@@ -2,21 +2,15 @@ import { StyleSheet } from "react-native";
 import { COLORS, FONT_SIZE } from "../../constants/theme";
 
 export const styles = StyleSheet.create({
-  btn: {
-    width: "100%",
-    backgroundColor: COLORS.blue,
-    borderRadius: 6,
+  container: {
+    backgroundColor: COLORS.white,
+    flex: 1,
     padding: 12,
   },
-  primary: {
-    backgroundColor: COLORS.blue,
-  },
-  danger: {
-    backgroundColor: COLORS.red,
-  },
   text: {
-    color: "#fff",
     fontSize: FONT_SIZE.md,
+    color: COLORS.gray1,
     textAlign: "center",
+    marginBottom: 15,
   },
 });
